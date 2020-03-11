@@ -45,13 +45,9 @@ export default class SearchBar extends React.Component {
     }
 
     handleSortByChange(sortByOption) {
-        console.log("test");
-        console.log(sortByOption);
         this.setState({
             sortBy: sortByOption
         });
-        console.log(this.state.sortBy);
-
     }
 
     renderSortByOptions(){
